@@ -1,4 +1,5 @@
+.idea/
+lib/
+!.idea/icon*.png
 *.iml
-lib
-.idea
-out
+build/
