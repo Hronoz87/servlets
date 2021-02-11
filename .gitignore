@@ -1,5 +1,4 @@
 .idea/
-lib/
 !.idea/icon*.png
 *.iml
 build/
