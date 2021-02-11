@@ -2,16 +2,16 @@ package ru.netology.service;
 
 import org.springframework.stereotype.Service;
 import ru.netology.model.Post;
-import ru.netology.repository.PostRepositoryStubImpl;
+import ru.netology.repository.PostRepository;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
 public class PostService {
-  private final PostRepositoryStubImpl repository;
+  private final PostRepository repository;
 
-  public PostService(PostRepositoryStubImpl repository) {
+  public PostService(PostRepository repository) {
     this.repository = repository;
   }
 
